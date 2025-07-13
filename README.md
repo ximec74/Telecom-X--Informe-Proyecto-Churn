@@ -26,7 +26,7 @@ Observamos en el gráfico que la proporción de clientes que han abandonado corr
 
 
 
-![Churn 02](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/e76ee1cfb42fbbb6b9dd6f4346f3a549206caf49/02.%20Churn_y_variables_categoricas.png)
+![Churn 02]()
 
 ![Churn_03](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/e76ee1cfb42fbbb6b9dd6f4346f3a549206caf49/03.%20Extra_Churn_segun_tipo_servicio_excluyente.png)
 
