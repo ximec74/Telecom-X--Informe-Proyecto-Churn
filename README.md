@@ -41,6 +41,7 @@ Las variables categoricas que se consideraron son: 1)SeniorCitizen 1) customer.g
 Del 26,5% de clientes que han abandonado el contrato, 22,5% tienen servicios de internet y telefonía.
 
 ![Churn_04](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/147161e9446fdb20fea37fca72c036bdafa10c5c/04.%20Boxplot_Churn_y_var_numericas.png)
+
 **Boxplot Tenure/ Antigüedad del Contrato y Churn**. Considera la distrubución de antigüedad de contratos desde 0 a 72 meses, los clientes que mantienen el contrato presentan una distribución simétrica con alta dispersión. La mayoría de los datos se encuentran entre 15 y 61 meses de antigüedad, con una mediana de 38 meses. Aunque hay valores mínimos de 0, no hay indicios claros de valores extremos por encima del rango normal.
 ✅Contratos más antiguos y distribución simétrica centrada en 38 meses.
 ✅ Alta permanencia asociada a mayor antigüedad.
@@ -49,13 +50,38 @@ Los clientes que abandonan tienen una distribución sesgada a la izquierda, con 
 ➡️ Distribución asimétrica hacia la izquierda (la media está más alta que la mediana).
 ➡️ Alta concentración de clientes que se van en los primeros meses.
 
-**Boxplot Cargos mensuales y Churn**
+**Boxplot Cargos mensuales y Churn**. Los clientes que abandonan el servicio presentan cargos mensuales significativamente más altos que aquellos que permanecen. La mediana de este grupo (79,7) está muy por encima de la de los clientes que permanecen (64,4), y su primer cuartil (56,1) ya supera la mediana del grupo que no hace churn.
+Esto indica que **el riesgo de abandono aumenta con el valor de la tarifa mensual.** Además, los cargos de clientes que hacen churn están más concentrados (IQR más estrecho), lo que refuerza la idea de que hay un segmento específico de alto costo que es más sensible o insatisfecho.
+En cambio, los clientes que pagan menos presentan mayor dispersión en sus cargos, y tienden a permanecer más tiempo, posiblemente por percepción de valor o menor presión económica.
+
+**Boxplot Cargos Totales y Churn**. Los clientes que permanecen presentan :
+✅ Distribución asimétrica a la derecha (media > mediana), indicando presencia de clientes con cargos acumulados altos.
+✅ IQR amplio: 3687,1, alta dispersión.
+✅ Valores acumulados mucho mayores, coherente con contratos largos.
+Clientes que abandonan presentan:
+➡️ Distribución también asimétrica a la derecha.
+➡️ IQR más estrecho (2199,8), con valores más concentrados en la parte baja.
+➡️ Cargos totales notablemente más bajos que los clientes que permanecen.
+
+**Comparación con boxplot Cargos Mensuales:**
+**Clientes con Churn:**
+Pagan cargos mensuales más altos, pero tienen cargos totales más bajos.
+Esto indica que abandonan el servicio temprano, antes de acumular altos montos.
+
+**Clientes que Permanecen:**
+Pagan menos al mes, pero acumulan más cargos totales, coherente con una mayor duración del contrato.
 
 
 ![Churn_05](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/b64ac33437f67b183dd87189e67fac07e58a9c70/05.%20Churn_y_Clientes_Senior.png)
 
+**Boxplot Cuentas diarias y Churn**. Se observa que los clientes que presentan churn tienen una actividad diaria significativamente más alta, con una mediana de 2,7 cuentas por día, en contraste con 2,1 en los que permanecen. 
+La diferencia en los cuartiles también es clara: los clientes que se van rara vez tienen menos de 1,9 cuentas diarias, mientras que los que permanecen están por debajo de ese valor en el 25% de los casos.
+Esta diferencia indica que una mayor frecuencia de uso diario podría estar asociada al abandono, posiblemente por una mayor exposición a fallos, frustraciones, o percepción negativa del servicio.
+Alternativamente, podría reflejar a un perfil más intensivo, exigente o transaccional, con menor fidelización.
 
-
+🧩 **Relación con los otros boxplots**
+✅ Este patrón complementa el de cargos mensuales altos y baja antigüedad como predictores de churn.
+✅ Clientes con alta actividad diaria + cargos altos parecen más propensos a irse rápidamente, lo que puede apuntar a una experiencia de cliente deficiente para los usuarios más activos.
 
 
 
