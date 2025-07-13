@@ -1,7 +1,7 @@
 # Telecom-X--Informe-Proyecto-Churn
 Informe sobre el análisis de Churn (evasión) de clientes en Telecom X
 
-🔹 Introducción
+🔹 [!Introducción]
 
 El siguiente es un análisis exploratorio, realizado de manera gráfica para buscar las principales causas que expliquen la alta tasa de evasión/ cancelaciones de clientes (Churn) de la empresa Telecom X, para lo cuál han implementado el proyecto "Churn de Clientes".
 
