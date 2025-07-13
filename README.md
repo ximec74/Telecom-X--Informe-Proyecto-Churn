@@ -33,3 +33,4 @@ Las variables categoricas que se consideraron son: 1) customer.gender, 2)custome
 
 ![Churn_03](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/e76ee1cfb42fbbb6b9dd6f4346f3a549206caf49/03.%20Extra_Churn_segun_tipo_servicio_excluyente.png)
 
+![Churn_04](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/fe1975e237d2d3e039aaf472fd2a58613fab36d5/04.%20Boxplot_Churn_y_var_numericas.png)
