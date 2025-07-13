@@ -25,11 +25,12 @@ Observamos en el gráfico que la proporción de clientes que han abandonado corr
 ![Churn 01](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/d807671fb9026935977d57065408b6593cd5aa1c/01.%20Clientes_Proporcion_Evasion_Permanencia.png)
 
 Lo siguiente que analizaremos son los graficos relacionados con las variables categóricas y como se relacionan con Churn.
-Las variables categoricas que se consideraron son: 1) customer.gender, 2)customer.Partner, 3) customer.Dependents, 4) phone.PhoneService, 5) internet.InternetService, 6) account.Contract, 7) account.PaymentMethod.
+Las variables categoricas que se consideraron son: 1)SeniorCitizen 1) customer.gender, 2)customer.Partner, 3) customer.Dependents, 4) phone.PhoneService, 5) internet.InternetService, 6) account.Contract, 7) account.PaymentMethod.
 
 ![Churn 02](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/22654deaafd0fa5706c98d1feaab40a8d401e0dd/02.Churn_por_variables_categoricas_compacto.png)
+**Grafico y Customer.SeniorCitizen**. 83.8% de los clientes que contrataron no son Senior, y de estos un 23,6% abandonaron el contrato, lo que a nivel global representan un 19,8% . Es decir, considerar que cualquier esfuerzo para mantener los clientes están enfocados en un gran porcentaje sobre clientes No Senior.
 **Grafico Churn y Genero**. Nos muestra que el abandono de los clientes es del mismo porcentaje por Genero, no se observa una diferencia en los porcentajes que nos indique que manipulando esta variable podamos contener el abandono.
-**Grafico Churn y Customer**.Partner. En este grafico se observa que el nivel de abandono cuando la persona no tiene pareja es mayor que si la tuviera, un 17,0% vs 9,5%.
+**Grafico Churn y Customer.Partner**. En este grafico se observa que el nivel de abandono cuando la persona no tiene pareja es mayor que si la tuviera, un 17,0% vs 9,5%.
 **Grafico Churn y Customer.Dependents**.El grafico nos muestra que existe una fuernte diferencia en el porcentaje de abando cuando la persona tiene o no dependientes, siendo este de un 21,9% cuando el cliente no tiene dependientes vs 4,6% cuando los tiene. Además nos muestra, que los clientes sin dependientes representan un actualmente 48,1% del total, y que son los que mas se tiene que cuidar por su fuerte tasa de abandono.
 **Grafico Churn y PhoneService**. El grafico nos muestra que existe una fuernte diferencia en el porcentaje de abando cuando la persona tiene o no PhoneService, siendo este de un 24,9% cuando el cliente tiene PhoneService vs 2,4% cuando no los tiene.
 **Grafico Churn y InternetService**. 78,3% de los clientes tuvo en algún momento servicio de internet, DSL o Fibra optica, de los clientes de Fibra optica, 18,4% abandonaron el servicio y de DSL 6.5%.
