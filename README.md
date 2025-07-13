@@ -41,7 +41,15 @@ Las variables categoricas que se consideraron son: 1)SeniorCitizen 1) customer.g
 Del 26,5% de clientes que han abandonado el contrato, 22,5% tienen servicios de internet y telefonía.
 
 ![Churn_04](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/147161e9446fdb20fea37fca72c036bdafa10c5c/04.%20Boxplot_Churn_y_var_numericas.png)
-**Boxplot Tenure/ Antigüedad del Contrato y Churn**. Considera la distrubución de antigüedad de contratos desde 0 a 72 meses, los clientes que mantienen el contrato presentan una distribución simétrica con alta dispersión. La mayoría de los datos se encuentran entre 15 y 61, con una mediana de 38. Aunque hay valores mínimos de 0, no hay indicios claros de valores extremos por encima del rango normal.”
+**Boxplot Tenure/ Antigüedad del Contrato y Churn**. Considera la distrubución de antigüedad de contratos desde 0 a 72 meses, los clientes que mantienen el contrato presentan una distribución simétrica con alta dispersión. La mayoría de los datos se encuentran entre 15 y 61 meses de antigüedad, con una mediana de 38 meses. Aunque hay valores mínimos de 0, no hay indicios claros de valores extremos por encima del rango normal.
+✅Contratos más antiguos y distribución simétrica centrada en 38 meses.
+✅ Alta permanencia asociada a mayor antigüedad.
+Los clientes que abandonan tienen una distribución sesgada a la izquierda, con una mediana de apenas 10 meses y el 50% de los casos entre 2 y 29 meses. La media (18) mayor a la mediana refuerza la presencia de una cola derecha, es decir, unos pocos clientes antiguos que se van, pero la mayoría abandona temprano. Esta diferencia sugiere que la antigüedad del contrato es una variable fuertemente predictiva del churn, especialmente en los primeros meses. Los clientes que no superan el primer año son significativamente más propensos a abandonar el servicio.
+➡️ Contratos mucho más recientes.
+➡️ Distribución asimétrica hacia la izquierda (la media está más alta que la mediana).
+➡️ Alta concentración de clientes que se van en los primeros meses.
+
+**Boxplot Cargos mensuales y Churn**
 
 
 ![Churn_05](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/b64ac33437f67b183dd87189e67fac07e58a9c70/05.%20Churn_y_Clientes_Senior.png)
