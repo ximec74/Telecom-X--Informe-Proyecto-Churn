@@ -40,7 +40,7 @@ Las variables categoricas que se consideraron son: 1)SeniorCitizen 1) customer.g
 ![Churn_03](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/e76ee1cfb42fbbb6b9dd6f4346f3a549206caf49/03.%20Extra_Churn_segun_tipo_servicio_excluyente.png)
 Del 26,5% de clientes que han abandonado el contrato, 22,5% tienen servicios de internet y telefonía.
 
-![Churn_04](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/fe1975e237d2d3e039aaf472fd2a58613fab36d5/04.%20Boxplot_Churn_y_var_numericas.png)
+![Churn_04](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/147161e9446fdb20fea37fca72c036bdafa10c5c/04.%20Boxplot_Churn_y_var_numericas.png)
 
 ![Churn_05](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/b64ac33437f67b183dd87189e67fac07e58a9c70/05.%20Churn_y_Clientes_Senior.png)
 
