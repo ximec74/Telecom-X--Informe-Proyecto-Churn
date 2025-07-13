@@ -24,6 +24,9 @@ Observamos en el gráfico que la proporción de clientes que han abandonado corr
 
 ![Churn 01](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/d807671fb9026935977d57065408b6593cd5aa1c/01.%20Clientes_Proporcion_Evasion_Permanencia.png)
 
+Lo siguiente que analizaremos son los graficos relacionados con las variables categóricas y como se relacionan con Churn.
+Las variables categoricas que se consideraron son: 1) customer.gender, 2)customer.Partner, 3) customer.Dependents, 4) phone.PhoneService, 5) internet.InternetService, 6) account.Contract, 7) account.PaymentMethod.
+
 
 
 ![Churn 02](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/e4e0d1164bd215b645ba833618e4ba0b2ba1094d/02.%20Churn_por_variables_categoricas.png)
