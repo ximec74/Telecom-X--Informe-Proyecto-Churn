@@ -22,4 +22,4 @@ Después de eliminar las filas vacias de la columna Churn, la base de datos qued
 El primer análisis realizado corresponde a graficar la proporción del clientes que han abandonado (churn) el contrato vs los que han permanecido.
 Observamos en el gráfico que la proporción de clientes que han abandonado corresponde al 26,5% (1.866 clientes) de los clientes, mas del 25%, un valor muy alto comparado al 5,36% de la industría Digital Media & Entertainment(https://recurly.com/research/churn-rate-benchmarks/).
 
-![Churn 01](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/2d75d81af879a8c535161650b53e60aa7477c9be/01.%20Clientes_Proporcion_Evasion_Permanencia.png)
+![Churn 01]()
