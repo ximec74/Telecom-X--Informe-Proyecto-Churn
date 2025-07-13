@@ -64,15 +64,11 @@ Clientes que abandonan presentan:
 ➡️ Cargos totales notablemente más bajos que los clientes que permanecen.
 
 **Comparación con boxplot Cargos Mensuales:**
-**Clientes con Churn:**
+  **Clientes con Churn:**
 Pagan cargos mensuales más altos, pero tienen cargos totales más bajos.
 Esto indica que abandonan el servicio temprano, antes de acumular altos montos.
-
-**Clientes que Permanecen:**
+  **Clientes que Permanecen:**
 Pagan menos al mes, pero acumulan más cargos totales, coherente con una mayor duración del contrato.
-
-
-![Churn_05](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/b64ac33437f67b183dd87189e67fac07e58a9c70/05.%20Churn_y_Clientes_Senior.png)
 
 **Boxplot Cuentas diarias y Churn**. Se observa que los clientes que presentan churn tienen una actividad diaria significativamente más alta, con una mediana de 2,7 cuentas por día, en contraste con 2,1 en los que permanecen. 
 La diferencia en los cuartiles también es clara: los clientes que se van rara vez tienen menos de 1,9 cuentas diarias, mientras que los que permanecen están por debajo de ese valor en el 25% de los casos.
