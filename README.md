@@ -27,9 +27,12 @@ Observamos en el gráfico que la proporción de clientes que han abandonado corr
 Lo siguiente que analizaremos son los graficos relacionados con las variables categóricas y como se relacionan con Churn.
 Las variables categoricas que se consideraron son: 1) customer.gender, 2)customer.Partner, 3) customer.Dependents, 4) phone.PhoneService, 5) internet.InternetService, 6) account.Contract, 7) account.PaymentMethod.
 
-
-
 ![Churn 02](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/e4e0d1164bd215b645ba833618e4ba0b2ba1094d/02.%20Churn_por_variables_categoricas.png)
+**Grafico Churn y Genero**. Nos muestra que el abandono de los clientes es del mismo porcentaje por Genero, no se observa una diferencia en los porcentajes que nos indique que manipulando esta variable podamos contener el abandono.
+**Grafico Churn y Customer**.Partner. En este grafico se observa que el nivel de abandono cuando la persona no tiene pareja es mayor que si la tuviera, un 17,0% vs 9,5%.
+**Grafico Churn y Customer.Dependents**.El grafico nos muestra que existe una fuernte diferencia en el porcentaje de abando cuando la persona tiene o no dependientes, siendo este de un 21,9% cuando el cliente no tiene dependientes vs 4,6% cuando los tiene. Además nos muestra, que los clientes sin dependientes representan un actualmente 48,1% del total, y que son los que mas se tiene que cuidar por su fuerte tasa de abandono.
+**Grafico Churn y PhoneService**. El grafico nos muestra que existe una fuernte diferencia en el porcentaje de abando cuando la persona tiene o no PhoneService, siendo este de un 24,9% cuando el cliente tiene PhoneService vs 2,4% cuando no los tiene.
+**Grafico Churn y InternetService**. 
 
 ![Churn_03](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/e76ee1cfb42fbbb6b9dd6f4346f3a549206caf49/03.%20Extra_Churn_segun_tipo_servicio_excluyente.png)
 
