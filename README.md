@@ -38,6 +38,7 @@ Las variables categoricas que se consideraron son: 1)SeniorCitizen 1) customer.g
 **Grafico Churn y Payment.Method**. La mayoría de los clientes al contratar los servicios opta por Electronic Check 33,6%, el resto de los medios de pago, Bank transfer (automatic), Mail check y Credit Card (automatic), es seleccionado casi en la mima proporción que ronda un 22%. La tase de abandono es mayor bajo la opción Electronic Check representando un 45,2% del total de clienes que contratan bajo esa opción y un 15,2% del total de clientes que contrato en algún momento.
 
 ![Churn_03](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/e76ee1cfb42fbbb6b9dd6f4346f3a549206caf49/03.%20Extra_Churn_segun_tipo_servicio_excluyente.png)
+Del 26,5% de clientes que han abandonado el contrato, 22,5% tienen servicios de internet y telefonía.
 
 ![Churn_04](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/fe1975e237d2d3e039aaf472fd2a58613fab36d5/04.%20Boxplot_Churn_y_var_numericas.png)
 
