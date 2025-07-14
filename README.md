@@ -181,13 +181,11 @@ account.Charges.Total y customer.tenure: correlación alta (~0.82–0.85)
 account.Charges.Total y account.Charges.Monthly: moderada (~0.65)
 🎯Clientes con tarifas altas tienden a acumular más cargos.
 
-**¿En relación a Churn?**
-Busca los valores más cercanos a 1 o –1 en la columna de Churn:
+** Sobre el Churn**
+Los valores más cercanos a 1 o –1 en la columna de Churn:
 🎯Variables con correlación positiva significativa (~0.2 o más) → aumentan el churn
 🎯Variables con correlación negativa (~–0.2 o menos) → reducen el churn
 
-Ejemplo:
-account.Contract: correlación negativa con Churn → contratos largos, menos churn.
-internet.TechSupport o OnlineSecurity: muchas veces tienen correlación negativa, indicando que quienes tienen soporte o seguridad se quedan más.
+
 
 Para este analisis se uso: Python, Pandas, Plotly, sklearn, Numpy, Jason, Request, Seaborn, Sklearn
