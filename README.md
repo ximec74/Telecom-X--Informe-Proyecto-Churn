@@ -189,3 +189,4 @@ Los valores más cercanos a 1 o –1 en la columna de Churn:
 
 
 Para este analisis se uso: Python, Pandas, Plotly, sklearn, Numpy, Jason, Request, Seaborn, Sklearn
+Este es el desarrollo **[📺 Si quieres revisar el desarrollo](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/bbe5261aebb3873c8de0672c15bc6a0e009145f2/telecomx_latam_desarrollo.ipynb)**
