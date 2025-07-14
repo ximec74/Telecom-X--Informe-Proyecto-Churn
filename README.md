@@ -125,7 +125,7 @@ Alternativamente, podría reflejar a un perfil más intensivo, exigente o transa
 ✅ Este patrón complementa el de cargos mensuales altos y baja antigüedad como predictores de churn.
 ✅ Clientes con alta actividad diaria + cargos altos parecen más propensos a irse rápidamente, lo que puede apuntar a una experiencia de cliente deficiente para los usuarios más activos.
 
-![Churn_05]
+![Churn_05](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/ed4ebdc177ed6e50d619dd72f1ad7758df18ab8c/10.%20Churn_y_%20antiguedad_%20del_%20contrato.png)
 
 
 
