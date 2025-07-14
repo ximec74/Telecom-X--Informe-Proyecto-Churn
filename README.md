@@ -171,6 +171,7 @@ El rango va de 0 a ~0.17, lo cual indica que ninguna variable domina completamen
 El gráfico muestra que cargos totales, la antigüedad en meses y el cuentas diarias son las variables que más contribuyen a explicar o predecir el churn.
 Esto es útil para focalizar campañas de retención en clientes con bajo uso, poco tiempo y bajo historial de facturación.
 
+![Churn_13](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/720f9d07c6d05de43fdd42a1521eb8c05f0d5328/13.%20Grafico_Matriz_correlaci%C3%B3n_entre_variables.png)
 
 **Heatmap**
 ✅** Correlaciones fuertes y útiles:**
