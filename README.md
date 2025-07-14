@@ -130,5 +130,8 @@ Alternativamente, podría reflejar a un perfil más intensivo, exigente o transa
 
 Este grafico, reafirma los hallazgos de los boxplot, donde el 50% de los clientes que abandonan se concentran en los primeros 10 meses, unos pocos clientes antiguos que se van, pero la mayoría abandona temprano. **Esta diferencia sugiere que la antigüedad del contrato es una variable fuertemente predictiva del churn, especialmente en los primeros meses. Los clientes que no superan el primer año son significativamente más propensos a abandonar el servicio.**
 
+![Churn_06](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/3686177a035d383c872f8233c185d9a2f75c50ee/11.%20Churn_tipo_de_contrato_forma_de_pago.png)
+
+
 
 ![Churn_12](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/fc9b845dee8a9836432926e347e735fc1e43aa8f/12.%20Principales_5_var_explicativas.png)
