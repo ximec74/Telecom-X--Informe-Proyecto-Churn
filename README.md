@@ -172,3 +172,5 @@ Busca los valores más cercanos a 1 o –1 en la columna de Churn:
 Ejemplo:
 account.Contract: correlación negativa con Churn → contratos largos, menos churn.
 internet.TechSupport o OnlineSecurity: muchas veces tienen correlación negativa, indicando que quienes tienen soporte o seguridad se quedan más.
+
+Para este analisis se uso: Python, Pandas, Plotly, sklearn, Numpy, Jason, Request, Seaborn, Sklearn
