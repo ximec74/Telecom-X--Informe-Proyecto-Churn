@@ -132,6 +132,62 @@ Este grafico, reafirma los hallazgos de los boxplot, donde el 50% de los cliente
 
 ![Churn_06](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/3686177a035d383c872f8233c185d9a2f75c50ee/11.%20Churn_tipo_de_contrato_forma_de_pago.png)
 
+✅ Tipo de contrato está claramente asociado al churn:
+En "Month-to-month", es donde se observa más churn (barras doradas altas).
+En contratos de 1 o 2 años, la mayoría permanece (barras azules dominan).
+→ Conclusión: El contrato a mes a mes está fuertemente asociado con el abandono.
 
+✅El método de pago modula la relación pero no la revierte:
+En todas las facetas, el patrón se repite: los contratos mensuales tienen más abandono.
+Sin embargo, en algunos métodos de pago (como pago automático con tarjeta), el churn puede ser ligeramente menor.
+
+✅ Hay interacciones visibles:
+Clientes con método de pago automático y contrato de 1 o 2 años tienen muy bajo churn.
+En cambio, métodos como cheque por correo o Electronic check muestran más churn, incluso en contratos más largos.
+
+**El tipo de contrato es un fuerte predictor del churn, siendo los contratos “month-to-month” los más propensos al abandono. Esta relación se mantiene independientemente del método de pago, aunque ciertos métodos (como pagos automáticos) están asociados a menores tasas de churn, posiblemente por menor fricción o mayor conveniencia.**
+
+#**Matriz de correlación**
+                         customer.SeniorCitizen  customer.tenure \
+customer.SeniorCitizen                 1.000000         0.016567   
+customer.tenure                        0.016567         1.000000   
+account.Charges.Monthly                0.220173         0.247900   
+account.Charges.Total                  0.102411         0.825880   
+cuentas_diarias                        0.220173         0.247900   
+
+                         account.Charges.Monthly  account.Charges.Total  \
+customer.SeniorCitizen                  0.220173               0.102411   
+customer.tenure                         0.247900               0.825880   
+account.Charges.Monthly                 1.000000               0.651065   
+account.Charges.Total                   0.651065               1.000000   
+cuentas_diarias                         1.000000               0.651065   
+
+                         cuentas_diarias  
+customer.SeniorCitizen          0.220173  
+customer.tenure                 0.247900  
+account.Charges.Monthly         1.000000  
+account.Charges.Total           0.651065  
+cuentas_diarias                 1.000000  
+
+La variable más fuertemente correlacionada es tenure con Charges.Total, lo que confirma que la antigëdad del contrato en el servicio es el principal impulsor del total pagado.
+La correlación perfecta entre cuentas_diarias y Charges.Monthly es porque son redundante. Debido a que cuentas_diarias se deriva directamente del cargo mensual.
+Las demás correlaciones son bajas, lo que sugiere baja multicolinealidad en general entre estas variables, algo positivo si estás pensando en modelos predictivos.
 
 ![Churn_12](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/fc9b845dee8a9836432926e347e735fc1e43aa8f/12.%20Principales_5_var_explicativas.png)
+
+**Heatmap**
+✅ Correlaciones fuertes y útiles:
+account.Charges.Total y customer.tenure: correlación alta (~0.82–0.85)
+→ Como ya viste, mayor tiempo → mayor gasto acumulado.
+
+account.Charges.Total y account.Charges.Monthly: moderada (~0.65)
+→ Clientes con tarifas altas tienden a acumular más cargos.
+
+**¿En relación a Churn?**
+Busca los valores más cercanos a 1 o –1 en la columna de Churn:
+Variables con correlación positiva significativa (~0.2 o más) → aumentan el churn
+Variables con correlación negativa (~–0.2 o menos) → reducen el churn
+
+Ejemplo:
+account.Contract: correlación negativa con Churn → contratos largos, menos churn.
+internet.TechSupport o OnlineSecurity: muchas veces tienen correlación negativa, indicando que quienes tienen soporte o seguridad se quedan más.
