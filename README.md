@@ -17,8 +17,52 @@ Ya aplanado del DF se procedio a revisar los datos, antes de trabajar con ellos,
 
 • Valores únicos y contarlos de todas las columnas • Buscando valores faltantes (nulos) • Filas duplicadas, no se detectaron. • Detectar strings vacíos o espacios en blanco • Tipos de datos, se transformó una columna a valor numérico. • Valores vacios, se eliminaron filas vacias de la columna Churn (224). • Consistencia y validez de datos categóricos • Normalización de textos, revisar mayúsculas y minúsculas, no fue necesario.
 
-🔹 Análisis Exploratorio de Datos
+**Análisis Exploratorio de Datos**
 Después de eliminar las filas vacias de la columna Churn, la base de datos quedó con 7042 filas de clientes. 
+
+**Análisis descriptivo de variables numéricas**
+1. customer.tenure (antigüedad del contrato, en meses)
+Media: 32,37 meses
+Mediana: 29 meses
+Mínimo: 0 → hay clientes recién incorporados
+Máximo: 72 → contratos de hasta 6 años
+Distribución: asimétrica hacia la derecha, con alta dispersión (std: 24,56)
+IQR (25% a 75%): de 9 a 55 meses → gran variabilidad
+✅ Hay una mezcla de clientes nuevos y antiguos, pero con fuerte concentración en los primeros y últimos tramos del ciclo de vida.
+
+2. account.Charges.Monthly (cargo mensual)
+Media: 64,76
+Mediana: 70,35
+Mínimo: 18,25
+Máximo: 118,75
+Distribución: ligeramente asimétrica hacia la izquierda (media < mediana)
+IQR: de 35,50 a 89,85
+✅ Mayoría de clientes tiene cargos entre 35 y 90; algunos con planes básicos, otros premium. Existe un segmento sensible a los cargos mensuales altos.
+
+3. account.Charges.Total (cargo acumulado total)
+Media: 2283,30
+Mediana: 1397,48
+Mínimo: 18,80
+Máximo: 8684,80
+Distribución: fuertemente asimétrica a la derecha (media > mediana, alta std)
+IQR: de 401,45 a 3794,74
+✅ Muchos clientes con cargos bajos acumulados (recién ingresados o que abandonaron), y unos pocos con cargos muy altos. Variable claramente asociada a duración del contrato.
+
+4. cuentas_diarias (uso promedio diario)
+Media: 2,16
+Mediana: 2,34
+Mínimo: 0,61
+Máximo: 3,96
+Distribución: ligeramente asimétrica hacia la izquierda (media < mediana)
+IQR: de 1,18 a 2,99
+✅ Uso moderado en general, con una tendencia a 2–3 cuentas diarias. Clientes muy activos superan 3,5.
+
+**Conclusión general**
+El dataset tiene alta variabilidad y asimetría en las tres variables clave: antigüedad, cargos totales y actividad.
+Tenure y cargos totales están fuertemente correlacionados, mientras que cuentas_diarias y cargos mensuales se relacionan más con el comportamiento de churn.
+Estos patrones sugieren que la retención de clientes está vinculada a una combinación de antigüedad de contrato, valor económico y frecuencia de uso.
+
+**Análisis Grafico**
 El primer análisis realizado corresponde a graficar la proporción del clientes que han abandonado (churn) el contrato vs los que han permanecido.
 Observamos en el gráfico que la proporción de clientes que han abandonado corresponde al 26,5% (1.866 clientes) de los clientes, mas del 25% del total de clientes, un valor muy alto comparado al 5,36% de la industría Digital Media & Entertainment(https://recurly.com/research/churn-rate-benchmarks/).
 
