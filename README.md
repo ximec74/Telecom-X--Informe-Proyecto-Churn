@@ -157,17 +157,17 @@ Las demás correlaciones son bajas, lo que sugiere baja multicolinealidad en gen
 ![Churn_12](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/fc9b845dee8a9836432926e347e735fc1e43aa8f/12.%20Principales_5_var_explicativas.png)
 
 **Heatmap**
-✅ Correlaciones fuertes y útiles:
+✅** Correlaciones fuertes y útiles:**
 account.Charges.Total y customer.tenure: correlación alta (~0.82–0.85)
-→ Como ya viste, mayor tiempo → mayor gasto acumulado.
+🎯Mayor tiempo → mayor gasto acumulado.
 
 account.Charges.Total y account.Charges.Monthly: moderada (~0.65)
-→ Clientes con tarifas altas tienden a acumular más cargos.
+🎯Clientes con tarifas altas tienden a acumular más cargos.
 
 **¿En relación a Churn?**
 Busca los valores más cercanos a 1 o –1 en la columna de Churn:
-Variables con correlación positiva significativa (~0.2 o más) → aumentan el churn
-Variables con correlación negativa (~–0.2 o menos) → reducen el churn
+🎯Variables con correlación positiva significativa (~0.2 o más) → aumentan el churn
+🎯Variables con correlación negativa (~–0.2 o menos) → reducen el churn
 
 Ejemplo:
 account.Contract: correlación negativa con Churn → contratos largos, menos churn.
