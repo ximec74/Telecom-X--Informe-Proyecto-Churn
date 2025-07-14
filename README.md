@@ -126,7 +126,6 @@ Alternativamente, podría reflejar a un perfil más intensivo, exigente o transa
 ✅ Clientes con alta actividad diaria + cargos altos parecen más propensos a irse rápidamente, lo que puede apuntar a una experiencia de cliente deficiente para los usuarios más activos.
 
 ![Churn_05](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/ed4ebdc177ed6e50d619dd72f1ad7758df18ab8c/10.%20Churn_y_%20antiguedad_%20del_%20contrato.png)
-
-
+Este grafico, reafirma los hallazgos de los boxplot, donde el 50% de los clientes que abandonan se concentran en los primeros 10 meses, unos pocos clientes antiguos que se van, pero la mayoría abandona temprano. **Esta diferencia sugiere que la antigüedad del contrato es una variable fuertemente predictiva del churn, especialmente en los primeros meses. Los clientes que no superan el primer año son significativamente más propensos a abandonar el servicio.**
 
 
