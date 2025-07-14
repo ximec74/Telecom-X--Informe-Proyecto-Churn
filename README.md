@@ -148,26 +148,7 @@ En cambio, métodos como cheque por correo o Electronic check muestran más chur
 **El tipo de contrato es un fuerte predictor del churn, siendo los contratos “month-to-month” los más propensos al abandono. Esta relación se mantiene independientemente del método de pago, aunque ciertos métodos (como pagos automáticos) están asociados a menores tasas de churn, posiblemente por menor fricción o mayor conveniencia.**
 
 #**Matriz de correlación**
-                         customer.SeniorCitizen  customer.tenure \
-customer.SeniorCitizen                 1.000000         0.016567   
-customer.tenure                        0.016567         1.000000   
-account.Charges.Monthly                0.220173         0.247900   
-account.Charges.Total                  0.102411         0.825880   
-cuentas_diarias                        0.220173         0.247900   
-
-                         account.Charges.Monthly  account.Charges.Total  \
-customer.SeniorCitizen                  0.220173               0.102411   
-customer.tenure                         0.247900               0.825880   
-account.Charges.Monthly                 1.000000               0.651065   
-account.Charges.Total                   0.651065               1.000000   
-cuentas_diarias                         1.000000               0.651065   
-
-                         cuentas_diarias  
-customer.SeniorCitizen          0.220173  
-customer.tenure                 0.247900  
-account.Charges.Monthly         1.000000  
-account.Charges.Total           0.651065  
-cuentas_diarias                 1.000000  
+![Churn_11](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/69a915e721186d68e393907ff632dbaa85ea22c8/Matriz_correlacion.png)
 
 La variable más fuertemente correlacionada es tenure con Charges.Total, lo que confirma que la antigëdad del contrato en el servicio es el principal impulsor del total pagado.
 La correlación perfecta entre cuentas_diarias y Charges.Monthly es porque son redundante. Debido a que cuentas_diarias se deriva directamente del cargo mensual.
