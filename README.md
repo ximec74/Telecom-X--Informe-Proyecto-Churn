@@ -156,6 +156,22 @@ Las demás correlaciones son bajas, lo que sugiere baja multicolinealidad en gen
 
 ![Churn_12](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/fc9b845dee8a9836432926e347e735fc1e43aa8f/12.%20Principales_5_var_explicativas.png)
 
+Gráfico de barra horizontal de importancia de variables (generado con un modelo de árbol de decisión, RandomForestClassifier).
+Esto indica que se trata de las variables que más influyen en predecir si un cliente abandona o no, según el modelo entrenado.
+
+**Variables más importantes sobre el Churn**
+**1. account.Charges.Total.** Es la variable más influyente. Clientes con cargos totales altos o bajos podrían estar claramente diferenciados en su comportamiento de churn.
+**2. customer.tenure**.Antigüedad del cliente. Importancia: clientes nuevos suelen abandonar más fácilmente.
+**3. cuentas_diarias**. Frecuencia de uso. Mayor uso diario podría estar asociado a menor probabilidad de churn (cliente más activo).
+**4. account.Charges.Monthly**. Afecta, pero menos que el Total o la frecuencia.
+**5. account.Contract.** Tipo de contrato tiene impacto (por ejemplo, contratos mensuales versus anuales), aunque en menor medida.
+
+El rango va de 0 a ~0.17, lo cual indica que ninguna variable domina completamente, pero algunas tienen un peso claro.
+✅ **Conclusión**
+El gráfico muestra que cargos totales, la antigüedad en meses y el cuentas diarias son las variables que más contribuyen a explicar o predecir el churn.
+Esto es útil para focalizar campañas de retención en clientes con bajo uso, poco tiempo y bajo historial de facturación.
+
+
 **Heatmap**
 ✅** Correlaciones fuertes y útiles:**
 account.Charges.Total y customer.tenure: correlación alta (~0.82–0.85)
