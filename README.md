@@ -17,7 +17,7 @@ Ya aplanado del DF se procedio a revisar los datos, antes de trabajar con ellos,
 
 • Valores únicos y contarlos de todas las columnas • Buscando valores faltantes (nulos) • Filas duplicadas, no se detectaron. • Detectar strings vacíos o espacios en blanco • Tipos de datos, se transformó una columna a valor numérico. • Valores vacios, se eliminaron filas vacias de la columna Churn (224). • Consistencia y validez de datos categóricos • Normalización de textos, revisar mayúsculas y minúsculas, no fue necesario.
 
-**Análisis Exploratorio de Datos**
+ 🔹 Análisis Exploratorio de Datos
 Después de eliminar las filas vacias de la columna Churn, la base de datos quedó con 7042 filas de clientes. 
 
 **Análisis descriptivo de variables numéricas**
@@ -84,6 +84,8 @@ Las variables categoricas que se consideraron son: 1)SeniorCitizen 1) customer.g
 ![Churn_03](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/e76ee1cfb42fbbb6b9dd6f4346f3a549206caf49/03.%20Extra_Churn_segun_tipo_servicio_excluyente.png)
 Del 26,5% de clientes que han abandonado el contrato, 22,5% tienen servicios de internet y telefonía.
 
+#**Conteo de evasión por variables numéricas**#
+
 ![Churn_04](https://github.com/ximec74/Telecom-X--Informe-Proyecto-Churn/blob/147161e9446fdb20fea37fca72c036bdafa10c5c/04.%20Boxplot_Churn_y_var_numericas.png)
 
 **Boxplot Tenure/ Antigüedad del Contrato y Churn**. Considera la distrubución de antigüedad de contratos desde 0 a 72 meses, los clientes que mantienen el contrato presentan una distribución simétrica con alta dispersión. La mayoría de los datos se encuentran entre 15 y 61 meses de antigüedad, con una mediana de 38 meses. Aunque hay valores mínimos de 0, no hay indicios claros de valores extremos por encima del rango normal.
@@ -122,6 +124,8 @@ Alternativamente, podría reflejar a un perfil más intensivo, exigente o transa
 🧩 **Relación con los otros boxplots**
 ✅ Este patrón complementa el de cargos mensuales altos y baja antigüedad como predictores de churn.
 ✅ Clientes con alta actividad diaria + cargos altos parecen más propensos a irse rápidamente, lo que puede apuntar a una experiencia de cliente deficiente para los usuarios más activos.
+
+![Churn_05]
 
 
 
